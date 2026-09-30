@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hooria Zahoor — Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#03030a;--card:rgba(255,255,255,.035);--border:rgba(255,255,255,.09);--text:#fff;--text2:#94a3b8;--blue:#3b82f6;--purple:#8b5cf6;--cyan:#22d3ee;--tag:rgba(59,130,246,.12);--tagtext:#93c5fd;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f5f7fb;--card:#fff;--border:#dbe1ec;--text:#0f172a;--text2:#475569;--tag:#e0ebff;--tagtext:#1d4ed8;--cyan:#0891b2}}
+:root[data-theme="light"]{--bg:#f5f7fb;--card:#fff;--border:#dbe1ec;--text:#0f172a;--text2:#475569;--tag:#e0ebff;--tagtext:#1d4ed8;--cyan:#0891b2}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--text);font:300 15px/1.7 Inter,system-ui,sans-serif;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(600px 320px at 85% -5%,rgba(139,92,246,.22),transparent),radial-gradient(500px 300px at 0% 10%,rgba(59,130,246,.18),transparent)}
+main{position:relative;max-width:860px;margin:0 auto;padding:56px 20px 72px}
+a{color:var(--cyan);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:4px}
+.kicker,.tag-line{display:flex;align-items:center;gap:10px;font-size:.7rem;font-weight:600;letter-spacing:3px;text-transform:uppercase}
+.kicker{color:var(--cyan);margin-bottom:18px}
+.kicker::before,.tag-line::before{content:"";width:28px;height:1px;background:linear-gradient(90deg,var(--blue),var(--cyan))}
+h1{font:700 clamp(2.8rem,10vw,4.6rem)/.95 "Space Grotesk",sans-serif;letter-spacing:-3px}
+h1 span{display:block;background:linear-gradient(135deg,var(--blue),var(--purple) 50%,var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.role{margin:18px 0 6px;font:500 1.15rem "Space Grotesk",sans-serif}
+.contact{display:flex;flex-wrap:wrap;gap:6px 22px;list-style:none;color:var(--text2);font-size:.9rem;margin-top:12px}
+section{margin-top:52px}
+.tag-line{color:var(--blue);margin-bottom:8px}
+h2{font:700 1.9rem/1.1 "Space Grotesk",sans-serif;letter-spacing:-1px;margin-bottom:22px}
+p{color:var(--text2)}
+p strong{color:var(--text);font-weight:500}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin-bottom:12px}
+.card h3{font:600 1.05rem "Space Grotesk",sans-serif;margin-bottom:4px}
+.card p{font-size:.92rem}
+.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.date{font-size:.8rem;color:var(--text2)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tags span{background:var(--tag);color:var(--tagtext);border-radius:6px;padding:2px 10px;font-size:.75rem;font-weight:500}
+.fyp{border-color:rgba(139,92,246,.45);background:linear-gradient(135deg,rgba(59,130,246,.1),rgba(139,92,246,.1))}
+.badge{display:inline-block;font-size:.68rem;font-weight:600;letter-spacing:1px;color:#f59e0b;margin-bottom:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.grid .card{margin:0}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:12px}
+.stats b{display:block;font:700 2rem "Space Grotesk",sans-serif;background:linear-gradient(135deg,var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.stats small{color:var(--text2);font-size:.8rem}
+.wk{display:grid;grid-template-columns:44px 1fr;gap:10px;padding:10px 0;border-top:1px solid var(--border);font-size:.9rem}
+.wk:first-of-type{border-top:0}
+.wk b{color:var(--cyan);font:600 .85rem "Space Grotesk",sans-serif}
+.wk span{color:var(--text2)}
+.wk em{font-style:normal;color:var(--text);font-weight:500}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="kicker">Resume</div>
+<h1>Hooria<span>Zahoor</span></h1>
+<p class="role">Aspiring AI Engineer</p>
+<ul class="contact">
+<li>Faisalabad, Punjab, Pakistan</li>
+<li><a href="mailto:hooriazahoor5@gmail.com">hooriazahoor5@gmail.com</a></li>
+<li><a href="tel:+923173410210">0317 3410210</a></li>
+<li><a href="https://github.com/hooriazahoor">github.com/hooriazahoor</a></li>
+</ul>
+</header>
+
+<section>
+<div class="tag-line">Summary</div>
+<h2>AI that empowers, not replaces</h2>
+<p>BS Artificial Intelligence student building intelligent systems that solve real-world problems. I specialize in <strong>NLP, Machine Learning, Deep Learning and Computer Vision</strong>, with hands-on work in <strong>BERT, TensorFlow, Keras, RAG, AI agents</strong> and Explainable AI (LIME/SHAP). Open to internships, research collaborations and AI engineering roles.</p>
+<div class="stats">
+<div><b>3.75</b><small>CGPA / 4.00</small></div>
+<div><b>5</b><small>Semesters completed</small></div>
+<div><b>2027</b><small>Graduation</small></div>
+</div>
+</section>
+
+<section>
+<div class="tag-line">Skills</div>
+<h2>Technical expertise</h2>
+<div class="grid">
+<div class="card"><h3>AI / ML</h3><div class="tags"><span>Machine Learning</span><span>Deep Learning</span><span>NLP</span><span>Computer Vision</span><span>Explainable AI</span><span>RAG</span><span>AI Agents</span></div></div>
+<div class="card"><h3>Frameworks</h3><div class="tags"><span>TensorFlow</span><span>Keras</span><span>BERT</span><span>LIME/SHAP</span><span>Scikit-learn</span><span>LangGraph</span><span>Gemini API</span><span>Flask</span></div></div>
+<div class="card"><h3>Languages &amp; Tools</h3><div class="tags"><span>Python</span><span>Jupyter</span><span>Git &amp; GitHub</span><span>Streamlit</span><span>VS Code</span><span>Colab</span></div></div>
+<div class="card"><h3>Domains</h3><div class="tags"><span>Healthcare AI</span><span>Mental Health Tech</span><span>Agricultural CV</span><span>Data Mining</span></div></div>
+</div>
+</section>
+
+<section>
+<div class="tag-line">Projects</div>
+<h2>Things I've built</h2>
+<div class="card fyp">
+<span class="badge">★ FINAL YEAR PROJECT</span>
+<h3>Intelligent Mental Health Conversational Agent with Crisis Detection</h3>
+<p>Conversational AI offering evidence-based support through CBT and DBT techniques. When it detects crisis signals, it alerts human counselors, shares crisis hotlines and documents the conversation. Includes PHQ-9/GAD-7 integration, mood tracking and Twilio SMS alerts.</p>
+<div class="tags"><span>LLaMA/Mistral</span><span>Clinical NLP</span><span>React</span><span>Node.js</span><span>Twilio</span><span>LIME/SHAP</span></div>
+</div>
+<div class="card"><div class="meta"><h3>Plant Disease Detector</h3><a href="https://github.com/hooriazahoor/plant-disease-detector">GitHub</a></div><p>Transfer-learning app for leaf disease detection. Compared MobileNetV2, ResNet50 and EfficientNetB0 on PlantVillage, with Grad-CAM explainability and a Streamlit interface.</p><div class="tags"><span>TensorFlow</span><span>Grad-CAM</span><span>Streamlit</span></div></div>
+<div class="card"><div class="meta"><h3>Cancer Prediction System</h3><a href="https://github.com/hooriazahoor/Artificial-Intelligence-Projects">GitHub</a></div><p>Full ML pipeline: preprocessing, EDA, feature engineering, Random Forest and SVM classification, plus skin cancer detection notebooks.</p><div class="tags"><span>Random Forest</span><span>SVM</span><span>Scikit-learn</span></div></div>
+<div class="card"><div class="meta"><h3>Emotional Classification</h3><a href="https://github.com/hooriazahoor/emotional-classification">GitHub</a></div><p>NLP-based emotion detection that classifies text into emotional categories using preprocessing, feature extraction and classification.</p><div class="tags"><span>NLP</span><span>Text Classification</span></div></div>
+<div class="card"><h3>Human-in-the-Loop Hallucination Detection</h3><p>Research on reducing hallucinations in AI responses through human feedback and verification, with a source-factor mechanism that rates the reliability of AI-generated content.</p></div>
+</section>
+
+<section>
+<div class="tag-line">Fellowship</div>
+<h2>AI Summer Internship 2026</h2>
+<div class="card">
+<p style="margin-bottom:8px">Six weeks on the NLP &amp; AI Agents track. <a href="https://github.com/hooriazahoor/AI-Agent-Fellowship-2026">Full repository</a></p>
+<div class="wk"><b>W1</b><span><em>AI Workspace.</em> Streamlit chat over the Gemini API with system prompts, multi-session history and token/latency counters.</span></div>
+<div class="wk"><b>W2</b><span><em>Enterprise Document Intelligence (RAG).</em> Chunking, ChromaDB embeddings, hybrid search and cited answers, backed by four controlled experiments.</span></div>
+<div class="wk"><b>W3</b><span><em>Productivity &amp; Task Execution Agent.</em> 20 tools with human approval on every write action.</span></div>
+<div class="wk"><b>W4</b><span><em>Multi-Agent Research Platform.</em> Supervisor, Research, Analyst, Critic and Writer agents on LangGraph.</span></div>
+<div class="wk"><b>W5</b><span><em>AI Workspace Platform.</em> Multi-user Flask platform with auth, knowledge base, long-term memory and 40 pytest tests.</span></div>
+<div class="wk"><b>W6</b><span><em>Evaluation, Guardrails &amp; Reliability.</em> Versioned prompts, LLM-judge evaluation, guardrails, tracing and a release gate.</span></div>
+</div>
+</section>
+
+<section>
+<div class="tag-line">Education</div>
+<h2>Academic background</h2>
+<div class="card"><div class="meta"><h3>BS Artificial Intelligence</h3><span class="date">2023 – 2027</span></div><p>The University of Faisalabad, Amin Campus · CGPA 3.75 / 4.00</p><div class="tags"><span>Deep Learning</span><span>NLP</span><span>Computer Vision</span><span>Machine Learning</span><span>Data Mining</span></div></div>
+<div class="card"><div class="meta"><h3>FSc Pre-Medical</h3><span class="date">2021 – 2022</span></div><p>Punjab Group of Colleges · Grade A</p></div>
+<p style="margin-top:14px">Languages: English, Urdu</p>
+</section>
+</main>
+</body>
+</html>
